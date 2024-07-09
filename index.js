@@ -26,8 +26,6 @@ buuton.addEventListener("click", function (event) {
     li.appendChild(doneBtn);
     li.appendChild(delBtn);
 
-    li.textContent = task;
-
     ul.appendChild(li);
 
     input.value = "";
