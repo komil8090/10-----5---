@@ -11,6 +11,11 @@ buuton.addEventListener("click", function (event) {
     let doneBtn = document.createElement("button");
     let delBtn = document.createElement("button");
 
+    doneBtn.addEventListener("click", function (event){
+        event.preventDefault();
+
+        span.classList.toggle("strike")
+    })
 
     delBtn.addEventListener("click", function (event) {
         event.preventDefault()
